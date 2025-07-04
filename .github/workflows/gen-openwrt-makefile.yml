@@ -34,7 +34,6 @@ jobs:
 PKG_NAME:=sing-box
 PKG_VERSION:=v1.12.31-ref1nd
 PKG_RELEASE:=1
-
 PKG_SOURCE:=\$(PKG_NAME)-\$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/reF1nd/sing-box/tar.gz/${{ steps.get_commit.outputs.COMMIT }}?
 PKG_HASH:=${{ steps.get_hash.outputs.PKG_HASH }}
