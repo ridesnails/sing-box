@@ -30,7 +30,7 @@ jobs:
 
       - name: Generate OpenWrt Makefile
         run: |
-          cat > sing-box-openwrt-makefile <<EOF
+          cat > sing-box-openwrt-makefile <<'EOF'
 PKG_NAME:=sing-box
 PKG_VERSION:=v1.12.31-ref1nd
 PKG_RELEASE:=1
